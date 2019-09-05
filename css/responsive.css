@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  header {
+    height:60px;
+    position: fixed;
+    left: 0;
+    top:0;
+    width:100%;
+  }
+
+  .logo {
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+
+  }
+
+.wrap {
+  display: none;
+}
