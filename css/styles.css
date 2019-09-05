@@ -28,13 +28,23 @@ li {
   margin: 0;
 }
 
+.logo {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 650px;
+}
+
+.primary {
+  background-color: white;
+  padding: 0;
+}
+
 .wrap {
   display: inline-block;
   -webkit-box-shadow: 0 0 70px #fff;
   -moz-box-shadow: 0 0 70px #fff;
   box-shadow: 0 0 70px #fff;
-  margin-top: 100px;
-  margin-left: 500px;
+  margin-left: 350px;
 }
 
 /* a little "umph" */
@@ -51,7 +61,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   display: block;
 }
 
@@ -86,9 +96,9 @@ nav {
   text-align: center;
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px #0E0E0E;
-  -webkit-box-shadow: 2px 2px 3px #888;
-  -moz-box-shadow: 2px 2px 3px #888;
-  box-shadow: 2px 2px 3px #888;
+  -webkit-box-shadow: 1px 1px 1px #888;
+  -moz-box-shadow: 1px 1px 1px #888;
+  box-shadow: 1px 1px #888;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -142,7 +152,7 @@ ul.sub li a:hover {
 /* sub display*/
 ul.primary li:hover ul {
   display: block;
-  background: #fff;
+  background: #000;
 }
 
 /* keeps the tab background white */
