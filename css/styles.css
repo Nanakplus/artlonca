@@ -66,7 +66,7 @@ li {
 .container-2 input#search{
   width: 50px;
   height: 50px;
-  background: #ffb06f;
+  background: #ffb599;
   border: none;
   font-size: 10pt;
   float: left;
@@ -211,7 +211,7 @@ ul.primary li a:hover {
 ul.sub {
   position: absolute;
   z-index: 200;
-  box-shadow: 2px 2px 0 #000000;
+  box-shadow: 2px 2px 0 #ff8b8b;
   width: 35%;
   display:none;
 }
@@ -240,7 +240,7 @@ ul.sub li a:hover {
 /* sub display*/
 ul.primary li:hover ul {
   display: block;
-  background: #000;
+  background: #ff8b8b;
 }
 
 /* keeps the tab background white */
@@ -251,7 +251,7 @@ ul.primary li:hover a {
 }
 
 ul.primary li:hover > a{
-  color: #000;
+  color: #ff8b8b;
 }
 
 .bx-wrapper {
