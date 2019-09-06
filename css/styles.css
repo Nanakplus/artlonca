@@ -267,7 +267,7 @@ ul.primary li:hover > a{
   display: inline-block;
   font-size: 150%;
   font-weight: bold;
-  width: 52.5%;
+  width: 960px;
   text-align: left;
   padding-bottom: 5px;
   padding-left: 15px;
@@ -278,22 +278,24 @@ ul.primary li:hover > a{
 
 .wrapper {
   min-height: 100%;
-
-  /* フッタの高さと等しいネガティブマージン */
-  /* また最後の子要素の潜在的なマージンとしても機能 */
   margin-bottom: -100px;
 }
 .footer,
 .push {
-  background-color: #000;
+  background-color: #fff;
   clear:both;
   text-align:center;
   height: 100px;
 }
 
+.under {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .copy {
   padding-top: 30px;
   font-size: 14px;
-  color: #fff;
+  color: #000;
   /* padding-top: 40px; */
 }
