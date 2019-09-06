@@ -288,6 +288,23 @@ ul.primary li:hover > a{
   height: 100px;
 }
 
+.fade_off {
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+.fade_on {
+    opacity: 1;
+}
+
+.logo1 {
+  pointer-events: none;
+}
+
 .under {
   margin: 0 auto;
   margin-top: 50px;
