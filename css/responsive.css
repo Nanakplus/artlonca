@@ -20,13 +20,14 @@
     width:100%;
   }
 
-  .logo {
-    text-align: center;
-    padding: 30px;
-    margin-top: 10px;
-
+  .bx-wrapper {
+    display: none;
   }
 
-.wrap {
+  .h1k{
+    margin-top: 500px;
+  }
+
+  .wrap {
   display: none;
-}
+  }
