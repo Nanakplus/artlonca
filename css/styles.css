@@ -268,7 +268,7 @@ ul.primary li:hover > a{
   font-size: 150%;
   font-weight: bold;
   width: 52.5%;
-  text-align: center;
+  text-align: left;
   padding-bottom: 5px;
   padding-left: 15px;
   margin-bottom: 16px;
@@ -276,23 +276,24 @@ ul.primary li:hover > a{
   border-bottom: 1px solid #000;
 }
 
-footer {
-  position: absolute;
-  width: 951px;
+.wrapper {
+  min-height: 100%;
+
+  /* フッタの高さと等しいネガティブマージン */
+  /* また最後の子要素の潜在的なマージンとしても機能 */
+  margin-bottom: -100px;
+}
+.footer,
+.push {
+  background-color: #000;
+  clear:both;
+  text-align:center;
   height: 100px;
-  margin: auto;
-  background-color: #fff;
-  border-top: solid #000;
-  display: flex;
-  justify-content: center;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: -0px;
-  /* border-top: 3px red solid; */
 }
 
-footer span {
-  color: #000;
-  padding-top: 40px;
+.copy {
+  padding-top: 30px;
+  font-size: 14px;
+  color: #fff;
+  /* padding-top: 40px; */
 }
