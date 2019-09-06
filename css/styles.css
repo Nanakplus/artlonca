@@ -253,3 +253,11 @@ ul.primary li:hover a {
 ul.primary li:hover > a{
   color: #000;
 }
+
+.bx-wrapper {
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  width: 950px;
+  height: auto;
+}
