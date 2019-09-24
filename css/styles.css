@@ -72,7 +72,6 @@ li {
   font-size: 10pt;
   float: left;
   color: #262626;
-  padding-left: 35px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -102,8 +101,8 @@ li {
 }
 
 .container-2 .icon{
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: 7px;
   margin-left: 10px;
   margin-top: 10px;
   z-index: 1;
@@ -112,11 +111,11 @@ li {
 
 .container-2 input#search:focus, .container-2 input#search:active{
   outline:none;
-  width: 250px;
+  width: 200px;
 }
 
 .container-2:hover input#search{
-width: 250px;
+width: 200px;
 }
 
 .container-2:hover .icon{
